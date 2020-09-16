@@ -51,7 +51,7 @@ body {
 .movie_image {
   height: 300px;
   width: 220px;
-  background-image: url("../assets/Aquaman.jpg");
+  /* background-image: url("../assets/Aquaman.jpg"); */
   background-size: cover;
 }
 

@@ -25,7 +25,9 @@ function App() {
       </div>
       <div className="movies_container">
         {name.map((movie, i) => {
-          return <Movie title={name[i]} year={year[i]} key={i} />;
+          return (
+            <Movie name={name[i]} title={name[i]} year={year[i]} key={i} />
+          );
         })}
       </div>
     </div>

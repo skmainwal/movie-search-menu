@@ -1,10 +1,10 @@
 const data = {
   Aquaman: {
-    title: "AquaMan",
+    title: "Aquaman",
     year: 2015,
   },
 
-  matrix: {
+  Matrix: {
     title: "Matrix",
     year: 1998,
   },
@@ -19,7 +19,7 @@ const data = {
     year: 2005,
   },
   DeadPool: {
-    title: "Dead Pool",
+    title: "DeadPool",
     year: 2018,
   },
   Raone: {
@@ -27,8 +27,8 @@ const data = {
     year: 2008,
   },
 
-  CatpatinAmerica: {
-    title: "CatpatinAmerica",
+  CaptainAmerica: {
+    title: "CaptainAmerica",
     year: 2015,
   },
 };
