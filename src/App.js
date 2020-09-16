@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/style/main.css";
+import Movie from "./components/Movie";
 
 function App() {
   return (
@@ -10,11 +11,9 @@ function App() {
         <input type="text" />
       </div>
       <div className="movies_container">
-        <div className="movie_container">
-          <div className="movie_image"></div>
-          <p className="movie-title">Aquaman</p>
-          <p className="movie-year">2005</p>
-        </div>
+        <Movie title="aquaman" />
+        <Movie title="antman" />
+        <Movie title="avengers" />
       </div>
     </div>
   );
