@@ -46,7 +46,7 @@ function Movie(props) {
   return (
     <div className="movie_container">
       <div className="movie_image" style={cover}></div>
-      <p className="movie-title">{props.title}</p>
+      <p className="movie-title">{props.name}</p>
       <p className="movie-year">2005</p>
     </div>
   );
