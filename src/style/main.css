@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: royalblue;
+}
+
+.input_continare {
+  width: 1170px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.input_continare label {
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.movies_container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie_contaier {
+  border: 1px solid black;
+  text-align: center;
+}
+.movie_image {
+  height: 300px;
+  width: 220px;
+  background-image: url("../assets/Aquaman.jpg");
+  background-size: cover;
+}
+
+.movie-title,
+movie-year {
+  margin: 10px;
+}
