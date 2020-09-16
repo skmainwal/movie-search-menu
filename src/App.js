@@ -37,7 +37,11 @@ class App extends Component {
         <div className="input_continare">
           <label>Search for a Movie</label>
 
-          <input type="text" onKeyUp={this.searchText} />
+          <input
+            type="text"
+            onKeyUp={this.searchText}
+            placeholder="Type a name...."
+          />
         </div>
         <div className="movies_container">
           {newName.map((movie, i) => {

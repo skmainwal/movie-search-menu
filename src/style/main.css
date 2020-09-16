@@ -22,6 +22,14 @@ body {
   font-weight: bold;
 }
 
+.input_continare input {
+  padding: 5px;
+  width: 300px;
+  font-size: 20px;
+
+  outline-style: groove;
+}
+
 .movies_container {
   background-color: white;
   border-radius: 10px;
