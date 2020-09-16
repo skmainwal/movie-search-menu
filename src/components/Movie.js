@@ -5,6 +5,7 @@ import avengers from "../assets/avengers.jpg";
 import captain from "../assets/captain america.jpg";
 import deadpool from "../assets/dead pool.jpg";
 import matrix from "../assets/matrix.jpg";
+import raone from "../assets/raone.jpg";
 
 function Movie(props) {
   let image = "";
@@ -12,9 +13,31 @@ function Movie(props) {
     case "Aquaman":
       image = aquaman;
       break;
+    case "Matrix":
+      image = matrix;
+      break;
+    case "Avatar":
+      image = avatar;
+      break;
+    case "DeadPool":
+      image = deadpool;
+      break;
+    case "CaptainAmerica":
+      image = captain;
+      break;
+
+    case "Avengers":
+      image = avengers;
+      break;
+    case "Raone":
+      image = raone;
+      break;
+
     default:
       image = "";
   }
+
+  // way putting background image
 
   let cover = {
     backgroundImage: "url(" + image + ")",
