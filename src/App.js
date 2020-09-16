@@ -4,6 +4,18 @@ import Movie from "./components/Movie";
 import data from "./components/data";
 
 function App() {
+  // storing data movie name and year in array
+  let name = [];
+  let year = [];
+
+  // running a loop through data object
+  Object.keys(data).forEach((key) => {
+    name.push(data[key].title);
+    year.push(data[key].year);
+  });
+
+  // console.log(name);
+  // console.log(year);
   return (
     <div className="container">
       <div className="input_continare">
@@ -12,9 +24,9 @@ function App() {
         <input type="text" />
       </div>
       <div className="movies_container">
-        <Movie title="aquaman" />
-        <Movie title="antman" />
-        <Movie title="avengers" />
+        {name.map((movie, i) => {
+          return <Movie title={name[i]} year={year[i]} key={i} />;
+        })}
       </div>
     </div>
   );
